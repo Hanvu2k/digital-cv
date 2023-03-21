@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+    /* nav bar */
+    #nav-bar .container-content {
+        flex-direction: column;
+        align-items: flex-start !important;
+        margin: 0 20px;
+    }
+
+    #nav-bar .container-content-item {
+        border: none !important;
+        display: flex;
+    }
+
+    #nav-bar .container-content-item:nth-of-type(3) {
+        display: none;
+    }
+
+    /* about */
+
+    #about .container{
+        width: 100%;
+    }
+
+    #target {
+        padding: 0 40px;
+    }
+
+    #personal-info {
+        padding: 0 40px ;
+        border: none !important;
+    }
+    
+    /* job-info */
+    #job-info .container {
+        width: 100%;
+    }
+
+    .container-job-info{
+        justify-content: flex-start;
+    }
+    /* certificate */
+    #certificate .container{
+        width: 100%;
+    }
+
+    /* project */
+    #project .container {
+        width: 100%;
+    }
+
+    #project .project-items {
+        flex-wrap: wrap !important;
+    }
+
+    .project-item-description .table-description {
+        min-height: 22px;
+        height: 100%;
+    }
+
+    .table-mobile {
+        padding-bottom: 8px;
+    }
+
+    /* footer */
+    #footer .container {
+        width: 100%;
+    }
+}

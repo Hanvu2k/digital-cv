@@ -1,0 +1,66 @@
+@media (max-width: 992px) {
+    /* nav bar */
+    #nav-bar .container-content-item .user-info-img {
+        display: none;
+    }
+
+    #nav-bar .container-content-item:nth-of-type(3) {
+        border: 1px solid #dee2e6;
+        padding: 28px 14px !important;
+        min-width: 50px;
+    }
+
+    /* job infor */
+
+    #job-info .hobbies-items {
+        flex-wrap: wrap;
+    }
+
+    #job-info .hobbies-item {
+        min-width: 70px;
+        padding: 8px 0;
+    }
+
+    /* certificate */
+    .certificate-item {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* project */
+    .project-item-info {
+        align-items: flex-start;
+        font-size: 14px;
+    }
+
+    .item-info-person {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-info-place {
+        display: flex;
+        margin: 0;
+    }
+
+    .item-info-position {
+        display: flex;
+    }
+
+    .project-item-description .table-description {
+        min-height: 409px;
+        height: 100%;
+    }
+
+    .project-item-description .table-description tr {
+        height: 100%;
+    }
+
+    .project-item-description .table-description tr td:first-child {
+        min-width: 70px;
+    }
+
+    .table-tablet {
+        padding-bottom: 116px;
+    }
+}
